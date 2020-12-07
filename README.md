@@ -1,27 +1,33 @@
-# Simplewallet
+# HAZAMA Blockchain Tutorial: Simplewallet
+
+Here, let's experience how HAZAMA blockchain can be implemented through the creation of a simple web app.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
-## Development server
+#### Git Clone
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+$ git clone https://github.com/hazama-io/tutorial-simple-wallet.git
+```
 
-## Code scaffolding
+#### Install dependencies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+$ cd tutorial-simple-wallet
+$ npm install
+```
 
-## Build
+#### Run
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+$ npm install -g @angular/cli # Install this if necessary.
+$ ng serve --open
+```
 
-## Running unit tests
+If your installation and setup was successful, you should see a page similar to the following. Let's try with the tutorial according to the contents of the page!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![tutorial](https://hazama.io/i/browser_tutorial_quickstart.png "tutorial")
 
-## Running end-to-end tests
+## Learn more
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more information about HAZAMA Blockchain see [HAZAMA Docs](https://hazama.io/docs/overview).
